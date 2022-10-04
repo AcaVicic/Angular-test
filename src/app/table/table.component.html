@@ -1,0 +1,25 @@
+<table>
+    <tr>
+        <th class="name">
+            Name
+        </th>
+        <th>
+            Total Time in Month
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+    <tr *ngFor="let employee of employees" [class.badEmployees]="employee.totalTime < 100">
+        <td class="name">
+            {{employee.timeEntries![0].EmployeeName}}
+        </td>
+        <td>
+            {{employee.totalTime}} hrs
+        </td>
+        <td>
+            <a href="">Edit</a>
+        </td>
+    </tr>
+</table>
+

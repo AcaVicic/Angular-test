@@ -1,0 +1,31 @@
+table, th, td{
+    border: 2px solid;
+    border-color: rgb(212, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+th{
+    background-color: #eee;
+    padding: 16px 40px;
+}
+
+
+td{
+    text-align: center;
+}   
+
+.name{
+    padding-left: 16px;
+    padding-right: 140px;
+    text-align: left;
+}
+
+.badEmployees{
+    background-color: rgb(238, 165, 165);
+}
